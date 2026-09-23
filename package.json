@@ -1,0 +1,13 @@
+{
+  "name": "plaid-golive-prober",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "verify-sandbox": "node scripts/verify-sandbox.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^16.4.5"
+  }
+}

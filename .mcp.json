@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "plaid": {
+      "command": "/Users/anna/.local/bin/uvx",
+      "args": [
+        "--from",
+        "mcp-server-plaid",
+        "--python",
+        "3.12",
+        "mcp-server-plaid"
+      ],
+      "env": {
+        "PLAID_CLIENT_ID": "${PLAID_CLIENT_ID}",
+        "PLAID_SECRET": "${PLAID_SECRET}"
+      }
+    }
+  }
+}
